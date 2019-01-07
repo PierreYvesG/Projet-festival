@@ -1,0 +1,131 @@
+@import 'reset.css';
+
+.dFlex{ display: flex;}
+.justifyCC{ justify-content: center;}
+.justifySB{ justify-content: space-between;}
+.justifySA{ justify-content: space-around;}
+.justifySE{ justify-content: space-evenly;}
+.justifyB{ justify-content: baseline;}
+.alignCC{ align-content: center;}
+.alignFE{ align-content: flex-end}
+.flexDR{ flex-direction: row;}
+.flexDC{ flex-direction: column;}
+.alignIC{align-items: center;}
+.txtc{ text-align: center;}
+.txtlc{ text-align-last: center;}
+.bgHead{ background-image: url("../images/Header.png");}
+
+.h45px{height: 45px;}
+.h35px{height: 35px;}
+.h75px{height: 75px;}
+.h100px{height: 100px;}
+.h250px{height: 250px;}
+.h750px{height: 750px;}
+.h80vh{height: 80vh;}
+.h100vh{height: 100vh;}
+.h60vh{height: 60vh;}
+
+.w175px{width: 175px;}
+.w50px{width: 50px;}
+.w1000{width: 1000px;}
+.w333{width: 333px;}
+.w50{ width: 50%;}
+.w60vw{width: 60vw;}
+.w70vw{width: 70vw;}
+.w100vw{width: 100vw;}
+
+.color0{ color:#fff;}
+.color1{ color:#000;}
+.color2{ color:#ffc300;}
+.color3{ color:#ff5733;}
+.color4{ color:#c70039;}
+.color5{ color:#900c3f;}
+.color6{ color:#581845;}
+.color7{ color: grey;}
+.color8{ color: #3d3d3b;}
+.bgHeader{ background-color: #fff;}
+.bgSub{ background-color: #c70039;}
+.bgC{background-color: #900c3f;}
+.bgSection{background-color: #eee;}
+.bgT{ background-color: transparent;}
+.background{ background: linear-gradient(to top right, #ffc300,#c70039);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.ff0{ font-family: Poppins;}
+.ff1{ font-family: Countryside;}
+.ff2{ font-family: BunchBlossoms;}
+
+.light{font-weight: 300;}
+.regular{font-weight: 400;}
+.bold{font-weight: 700;}
+.xbold{font-weight: 800;}
+
+.fs14{ font-size: 14px;}
+.fs18{ font-size: 18px;}
+.fs20{ font-size: 20px;}
+.fs22{ font-size: 22px;}
+.fs36{ font-size: 30px;}
+.fs42{ font-size: 42px;}
+.fs78{ font-size: 78px;}
+
+.m30{margin: 0 30px 0 30px;}
+.vaB{vertical-align: baseline;}
+.mt30{ margin-top: 30px;}
+.marImg{ margin: 20px 20px 20px 0px;}
+.pad{padding: 27px;}
+.pad30{ padding:50px;}
+.padB20{ padding-bottom: 20px;}
+.padB{padding-bottom: 15px;}
+.padB10{padding-bottom: 10px;}
+.pRS{padding: 3px;}
+.padl{padding-left: 2.5%;}
+.mar{margin: 5px;}
+
+.bRG{border-radius:25px 0% 0% 25px;} 
+
+.bRD{border-radius:0% 25px 25px 0%;}
+
+.br{border-radius: 50px 50px 50px 50px;}
+.bbFest{ border-bottom: 1px solid #3d3d3b}
+.bnone{border: none;}
+.borS{border: solid 1px;}
+.borW{border: solid;
+      border-width: 1px;
+      }
+.mycluster {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #3498DB;
+    color: white;
+    text-align: center;
+    font-size: 20px; 
+    line-height: 40px;
+    margin-top: -20px;
+    margin-left: -20px;
+    }
+
+    select:focus {
+        outline:none;
+    }
+
+
+
+@font-face {
+    font-family: 'BunchBlossoms';
+    src: url('../fonts/BunchBlossomsPersonalUse.woff2') format('woff2'),
+        url('../fonts/BunchBlossomsPersonalUse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Countryside';
+    src: url('../fonts/Countryside.woff2') format('woff2'),
+        url('../fonts/Countryside.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
